@@ -19,7 +19,7 @@ Projeto em Python realizado no GoogleColab que gerencia filas de atendimento em 
 ## Instalação e execução
 1- Clone o repositorio:
 ```bash
-!git clone https://github.com/seu-usuario/triagem-hospitalar.git
+!git clone https://github.com/seu-usuario/AtividadeTriagemComFilas.git
 %cd triagem-hospitalar
 ```
 2- Execute o código diretamente no Colab copiando e colando ou importando os módulos.
