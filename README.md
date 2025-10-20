@@ -1,28 +1,29 @@
-🏥 Sistema de Triagem Hospitalar
+# Sobre o Sistema
 
-Projeto em Python (Google Colab) para gerenciar filas de atendimento hospitalar por especialidade, com base na prioridade (cor) e ordem de chegada.
+Projeto em Python realizado no GoogleColab que gerencia filas de atendimento em um hospital por especialidade, organizando pacientes conforme prioridade baseada na cor de urgência e hora de chegada. O sistema simula a agenda médica, prevê tempos de espera e permite a chamada dos pacientes em ordem.
 
-⚙️ Funcionalidades
+## Funcionalidades
 
-Cadastro de pacientes por prioridade (Vermelho, Laranja, Amarelo, Azul)
+* Cadastro de pacientes com prioridade (Vermelho, Laranja, Amarelo e Azul).
+* Filas separadas por especialidades médicas.
+* Previsão de início e fim de consultas.
+* Cálculo do tempo médio de espera.
+* Tratamento de casos de empates e filas vazias.
 
-Filas por especialidade médica
+## Bibliotecas Utilizadas
 
-Previsão de início e fim das consultas
+* Python 3
+* Biblioteca `heapq` (filas de prioridade)
+* Biblioteca `typing` (tipagem)
 
-Cálculo do tempo médio de espera
-
-Tratamento de empates e filas vazias
-
-🧰 Bibliotecas
-
-heapq — filas de prioridade
-
-typing — tipagem estática
-
-Python 3
-
-▶️ Como usar
+## Instalação e execução
+1- Clone o repositorio:
+```bash
 git clone https://github.com/seu-usuario/triagem-hospitalar.git
 cd triagem-hospitalar
+```
+2- Execute o script:
+```bash
 python main.py
+```
+
