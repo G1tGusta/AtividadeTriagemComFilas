@@ -23,6 +23,7 @@ Projeto em Python realizado no GoogleColab que gerencia filas de atendimento em 
 %cd triagem-hospitalar
 ```
 2- Execute o código diretamente no Colab copiando e colando ou importando os módulos.
+
 3- Para atualizar o código do repositório no Colab, use:
 ```bash
 python main.py
