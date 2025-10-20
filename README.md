@@ -26,6 +26,6 @@ Projeto em Python realizado no GoogleColab que gerencia filas de atendimento em 
 
 3- Para atualizar o código do repositório no Colab, use:
 ```bash
-python main.py
+!git pull
 ```
 
